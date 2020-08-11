@@ -1,13 +1,46 @@
 body {
 	background-image: url("pictures/background.jpg");
-	background-color: powderblue;
 }
 
-strong {
-	animation: blinkingText 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+.tilted {
+	transform: rotate(-15deg);
+}
+
+
+.offRight {
+	position: relative;
+	right: -500px
+
+}
+
+.offLeft {
+	position: relative;
+	left: -50px
+
+}
+
+.grow {
+	animation: grow 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
 	color: red;
 	text-shadow: 0 0 3px black;
+	size: 120%;
 }
+
+.rainbow {
+	animation: rainbowText 1s infinite;
+	text-shadow: 0 0 8px black;
+
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle .5s infinite alternate;
+}
+
+.pan {
+	animation: panimation 2s infinite alternate;
+}
+
 
 #header {
 	background-color: powderblue;
@@ -20,7 +53,7 @@ strong {
 
 #content {
 	background-color: powderblue;
-	color: darkgreen;
+	color: purple;
 
 	font-family:  "Comic Sans MS", "Comic Sans";
 
@@ -29,7 +62,8 @@ strong {
 }
 
 
-@keyframes blinkingText {
+
+@keyframes grow {
 	0% {
 		font-size: 80%;
 	}
@@ -40,55 +74,36 @@ strong {
 	}
 }
 
+@keyframes rainbowText {
+	0% {
+		color: magenta;
+	}
+	20% {
+		color: darkviolet;
+	}
+	40% {
+		color: limegreen;
+	}
+	60% {
+		color: yellow;
+	}
+	80% {
+		color: orangered;
+	}
+	100% {
+		color: red;
+	}
+}
 
-@-ms-keyframes wiggle {
-	0% {
-		-ms-transform:rotate(3deg);
-	}
-	50% {
-		-ms-transform:rotate(-3deg);
-	}
-	100% {
-		-ms-transform:rotate(3deg);
-	}
-}
-@-moz-keyframes wiggle {
-	0% {
-		-moz-transform:rotate(3deg);
-	}
-	50% {
-		-moz-transform:rotate(-3deg);
-	}
-	100% {
-		-moz-transform:rotate(3deg);
-	}
-}
-@-webkit-keyframes wiggle {
-	0% {
-		-webkit-transform:rotate(3deg);
-	}
-	50% {
-		-webkit-transform:rotate(-3deg);
-	}
-	100% {
-		-webkit-transform:rotate(3deg);
-	}
-}
 @keyframes wiggle {
-	0% {
-		transform:rotate(3deg);
-	}
-	50% {
-		transform:rotate(-3deg);
-	}
-	100% {
-		transform:rotate(3deg);
-	}
+    0% { transform: rotate(-5deg); }
+   33% { transform: rotate(0deg); }
+   66% { transform: rotate(5deg); }
+  100% { transform: rotate(10deg); font-size: 120%;}
 }
 
-div.wiggle-me:hover{
-	-ms-animation:wiggle .3s 2;
-	-moz-animation:wiggle .3s 2;
-	-webkit-animation:wiggle .3s 2;
-	animation:wiggle .3s 2;
+@keyframes panimation {
+    0% { transform: translateX(-20px);}
+   50% { transform: translateX(0px);}
+   100% { transform: translateX(20px);}
 }
