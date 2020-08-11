@@ -1,0 +1,23 @@
+body {
+	background-image: url("pictures/background.jpg");
+	background-color: powderblue;
+}
+
+#header {
+	background-color: powderblue;
+	color: red;
+	text-shadow: 0 0 3px blueviolet;
+
+	margin: auto;
+	width: 90%;
+}
+
+#content {
+	background-color: powderblue;
+	color: darkgreen;
+
+	font-family:  "Comic Sans MS", "Comic Sans";
+
+	margin: auto;
+	width: 80%;
+}
