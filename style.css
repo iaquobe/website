@@ -3,14 +3,13 @@ body {
 	padding: 0;
 }
 
-
 footer {
 	text-align: center;
 
 	background-image: url("pictures/footer.jpg");
 	background-size: 100% 100%;
 
-	height: 150px;
+	height: 100px;
 	width: 100%;
 
 	position: fixed;
@@ -24,6 +23,10 @@ p:hover {
 }
 
 .social_media {
+	position: relative;
+	top: 15px;
+	float: center;
+	
 	width: 65px;
 	height: 65px;
 }
