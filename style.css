@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("fonts/converted/ms_sans_serif.woff") format("woff");
+  src: url("fonts/converted/ms_sans_serif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("fonts/converted/ms_sans_serif_bold.woff") format("woff");
+  src: url("fonts/converted/ms_sans_serif_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 body {
 	background-image: url("gif/background/skull.gif");
 	background-size: 33.333%;
@@ -139,6 +156,60 @@ p:hover {
 	animation: panimation 2.3s infinite alternate;
 }
 
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+#dropdown-btn {
+	font-family: "Pixelated MS Sans Serif", Arial;
+	font-size: 11px;
+
+	background-color: #fff;
+	color: black;
+	padding: 3px 8px;
+	padding-right: 32px;
+
+	min-height:21px;
+	min-width:50px;
+
+	background-image: url("./icon/button-down.svg");
+	background-position: top 2px right 2px;
+	background-repeat: no-repeat;
+
+	box-sizing: border-box;
+
+	height: 21px;
+	border: none;
+	box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+.dropdown-list {
+	min-width:100px;
+
+	display: none;
+	position: absolute;
+	background-color: silver;
+	z-index: 1;
+
+	box-shadow: -1px -1px #fff, 1px 1px grey, -2px -2px #dfdfdf, 2px 2px #0a0a0a;
+}
+
+.dropdown-list a {
+	font-family: "Pixelated MS Sans Serif", Arial;
+	color: black;
+	text-decoration: none;
+
+	padding-left: 8px;
+	display: block;
+}
+
+.dropdown-list a:hover {
+	background: navy;
+	color: white;
+}
+
+.dropdown:hover .dropdown-list {display: block;}
 
 #content {
 	background-color: powderblue;
@@ -206,3 +277,4 @@ p:hover {
    50% { transform: translateX(0px);}
    100% { transform: translateX(20px);}
 }
+
