@@ -39,6 +39,7 @@ em {
 u {
 	font-family: 'Courier New';
 	font-weight: bolder;
+	font-size: 20px;
 
 	color: yellow;
 	background-color: blue;
@@ -49,6 +50,12 @@ u {
 h2,
 h3 {
 	font-family: "Press Start 2P";
+
+	text-align: center;
+}
+
+p {
+	margin: 1%;
 }
 
 p:hover {
@@ -118,7 +125,10 @@ p:hover {
 	font-family:  "Comic Sans MS", "Comic Sans";
 
 	margin: auto;
+	padding-bottom: 20px;
+
 	width: 80%;
+	max-width: 900px;
 
 }
 
