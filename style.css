@@ -1,6 +1,8 @@
 body {
 	background-image: url("pictures/background.jpg");
 	padding: 0;
+
+	margin-bottom: 100px;
 }
 
 footer {
@@ -35,12 +37,18 @@ em {
 }
 
 u {
-	font-family: 'Courier New', underline;
+	font-family: 'Courier New';
+	font-weight: bolder;
 
 	color: yellow;
-	background-color: black;
+	background-color: blue;
 
 	animation: blinkingText 1.7s infinite;
+}
+
+h2,
+h3 {
+	font-family: "Press Start 2P";
 }
 
 p:hover {
@@ -103,15 +111,6 @@ p:hover {
 }
 
 
-#header {
-	background-color: powderblue;
-	color: red;
-	text-shadow: 0 0 3px blueviolet;
-
-	margin: auto;
-	width: 90%;
-}
-
 #content {
 	background-color: powderblue;
 	color: purple;
@@ -120,6 +119,7 @@ p:hover {
 
 	margin: auto;
 	width: 80%;
+
 }
 
 
