@@ -17,10 +17,41 @@ footer {
 	bottom: 0;
 }
 
+strong {
+	animation: grow .7s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite alternate;
+	color: cyan;
+	text-shadow: 0 0 3px black;
+
+	display: inline-block;
+}
+
+em {
+  animation: wiggle 1s infinite alternate;
+  color: fuchsia;
+
+  font-family: 'Press Start 2P', bold;
+
+  display: inline-block;
+}
+
+u {
+	font-family: 'Courier New', underline;
+
+	color: yellow;
+	background-color: black;
+
+	animation: blinkingText 1.7s infinite;
+}
+
 p:hover {
 	animation: rainbowText 1.1s infinite;
 	text-shadow: 0 0 8px black;
 }
+
+.banner {
+	width: 100%;
+}
+
 
 .social_media {
 	position: relative;
@@ -123,6 +154,14 @@ p:hover {
 	}
 }
 
+@keyframes blinkingText {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 @keyframes wiggle {
     0% { transform: rotate(-5deg); }
    33% { transform: rotate(0deg); }
