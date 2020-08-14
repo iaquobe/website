@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-echo "test"
+readfile("./header.html");
 ?>
 
 <div id="content">
