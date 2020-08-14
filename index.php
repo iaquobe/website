@@ -26,6 +26,11 @@ readfile("./header.html");
 	<p style="text-align: center">
 	<img src="gif/linux/arch.gif" alt="I use arch btw">
 	</p>
+	<span class=bottom-banner>
+		<img class=bottom-banner-left src=./gif/random/statue4.gif style="width:10%;">
+		<h3 class=bottom-banner-mid>EOF</h3>
+		<img class=bottom-banner-right src=./gif/random/statue4.gif style="width:10%;">
+	</span>
 </div>
 <?php 
 	readfile("./footer.html");
