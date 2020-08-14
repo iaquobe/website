@@ -209,6 +209,7 @@ p:hover {
 	color: white;
 }
 
+.dropdown:focus .dropdown-list,
 .dropdown:hover .dropdown-list {display: block;}
 
 #content {
