@@ -18,7 +18,7 @@
 		Of course everything has vim bindings. The last time I used a mouse was in 2019<br><br>
 	
 		you can find my .configs at:
-		<a class=rainbow href=https://github.com/jakoblh/archbox>github.com/jakoblh/archbox</a>
+		<a href=https://github.com/jakoblh/archbox>github.com/jakoblh/archbox</a>
 	</p>
 	<span class=bottom-banner>
 		<img class=bottom-banner-left src=./gif/random/arizona-rotating.gif>
