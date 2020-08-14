@@ -15,6 +15,12 @@
 }
 
 
+@font-face {
+  font-family: "comic";
+  src: url("fonts/comic-helvetic/ComicHelvetic_Medium.otf") format("opentype");
+  font-weight: normal;
+}
+
 body {
 	background-image: url("gif/background/skull.gif");
 	background-size: 33.333%;
@@ -210,7 +216,7 @@ p {
 	background-color: powderblue;
 	color: purple;
 
-	font-family:  "Comic Sans MS", "Comic Sans";
+	font-family:  "comic";
 
 	margin: auto;
 	padding-bottom: 20px;
