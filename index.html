@@ -1,94 +1,31 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="https://unpkg.com/98.css" />
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
-	</head>
+<?php 
+	readfile("./header.html");
+?>
 
-	<body>
-		<header class="window">
-			<div class="title-bar">
-				<div class="title-bar-text">
-					This is my website (I'm Iaquobe)
-				</div>
-				<div class="title-bar-controls">
-					<button aria-label="Minimize"></button>
-					<button aria-label="Maximize"></button>
-					<button aria-label="Close"></button>
-				</div>
-			</div>
-			<div class="window-body">
-				<span>
-					<span class=dropdown>
-						<button id=dropdown-btn>
-							linux stuff
-						</button>
-						<div class=dropdown-list>
-							<a href="#">link 1</a>
-							<a href="#">link 2</a>
-							<a href="#">link 3</a>
-						</div>
-					</span>
-					<span class=dropdown>
-						<button id=dropdown-btn>
-							linux stuff
-						</button>
-						<div class=dropdown-list>
-							<a href="#">link 1</a>
-							<a href="#">link 2</a>
-							<a href="#">link 3</a>
-						</div>
-					</span>
-				</span>
-				<span style="float: right">
-					<button>
-						OK
-					</button>
-				</span>
-			</div>
-		</header>
+<div id="content">
+	<h3 style="padding-top: 5%">$cat README.md</h3>
+	<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
+	<p>
+	hey I'm glad you made it to this corner of the web;<br> 
+	This is my website I'll be using it to showcase some projects and write about <em>linux</em>;<br>
+	Additionally I'll maybe post some <strong>bullshit</strong> I find on the Internet;
+	</p>
+	<p>
+	I also have all my social media links at the <u>bottom</u>;<br>
+	Just click the flashing gifs in the footer;
+	</p>
+	<h3>$whoami</h3>
+	<p>
+	I'm a CS student at <u>TUM</u> living in Munich;<br>
+	Before that I lived in Jena and before that I lived in Canada;<br>
+	I spend most of my time doing nothing and the slither thats left I spend in the <em>terminal</em>;<br>
+	</p>
 
-		<div id="content">
-			<h3 style="padding-top: 5%">$cat README.md</h3>
-			<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
-			<p>
-			hey I'm glad you made it to this corner of the web;<br> 
-			This is my website I'll be using it to showcase some projects and write about <em>linux</em>;<br>
-			Additionally I'll maybe post some <strong>bullshit</strong> I find on the Internet;
-			</p>
-			<p>
-			I also have all my social media links at the <u>bottom</u>;<br>
-			Just click the flashing gifs in the footer;
-			</p>
-			<h3>$whoami</h3>
-			<p>
-			I'm a CS student at <u>TUM</u> living in Munich;<br>
-			Before that I lived in Jena and before that I lived in Canada;<br>
-			I spend most of my time doing nothing and the slither thats left I spend in the <em>terminal</em>;<br>
-			</p>
-
-			<h3>$neofetch</h3>
-			<p style="text-align: center">
-			<img src="gif/linux/arch.gif" alt="I use arch btw">
-			</p>
-		</div>
-		<footer>
-			<span class="social_media_message">
-				Check out my sites:
-			</span>
-			<a href="https://github.com/jakoblh">
-				<img class="social_media" src="gif/social/github.gif" alt="github">
-			</a>
-			<a href="https://www.youtube.com/channel/UCfNh5uCoFZ_YarX_Sd_geXw">
-				<img class="social_media" src="gif/social/youtube.gif" alt="youtube">
-			</a>
-			<a href="https://www.instagram.com/iaquobe.lh/">
-				<img class="social_media" src="gif/social/instagram.gif" alt="instagram">
-			</a>
-			<a href="https://open.spotify.com/user/jakob.lamberthartmann.canada?si=vTYEVZEjTJqfraS0vT4Nkg">
-				<img class="social_media" src="gif/social/spotify.gif" alt="spotify">
-			</a>
-		</footer>
-	</body>
-</html>
+	<h3>$neofetch</h3>
+	<p style="text-align: center">
+	<img src="gif/linux/arch.gif" alt="I use arch btw">
+	</p>
+</div>
+<?php 
+	readfile("./footer.html");
+?>
