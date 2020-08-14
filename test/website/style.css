@@ -1,0 +1,40 @@
+
+.dropdown-btn {
+	font-family: "Pixelated MS Sans Serif",Arial;
+	background-color: #fff;
+	color: black;
+	padding-right: 32px;
+
+	background-image: url("./button-down.svg");
+	background-position: top 2px right 2px;
+	background-repeat: no-repeat;
+
+	box-sizing: border-box;
+
+	border: none;
+	box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+.dropdown-list {
+	display: none;
+	position: absolute;
+	background-color: silver;
+	z-index: 1;
+
+	width: inherit;
+
+	box-shadow: -1px -1px #fff, 1px 1px grey, -2px -2px #dfdfdf, 2px 2px #0a0a0a;
+}
+
+.dropdown-list a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-list a:hover {
+	background: navy;
+	color: white;
+}
+
+.dropdown:hover .dropdown-list {display: block;}
