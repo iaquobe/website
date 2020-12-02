@@ -268,7 +268,7 @@ p {
 }
 
 .bottom-banner-left {
-	width: 5%;
+	width: 10%;
 	margin: 5%;
 	vertical-align: middle;
 	transform: rotateZ(-8deg);
@@ -283,7 +283,7 @@ p {
 }
 
 .bottom-banner-right {
-	width: 5%;
+	width: 10%;
 	margin: 5%;
 	vertical-align: middle;
 	transform: rotateY(180deg) rotateZ(-8deg);

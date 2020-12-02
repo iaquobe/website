@@ -44,9 +44,9 @@ readfile("./header.html");
 
 
 	<span class=bottom-banner>
-		<img class=bottom-banner-left src=./gif/random/statue3.gif style="width:10%;">
+		<img class=bottom-banner-left src=./gif/random/statue4.gif>
 		<h3 class=bottom-banner-mid>EOF</h3>
-		<img class=bottom-banner-right src=./gif/random/statue3.gif style="width:10%;">
+		<img class=bottom-banner-right src=./gif/random/statue4.gif>
 	</span>
 </div>
 <?php 

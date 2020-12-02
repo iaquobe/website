@@ -4,13 +4,9 @@ readfile("./header.html");
 ?>
 
 <div id="content">
-	<h3 style="padding-top: 5%">$cat README.md</h3>
-	<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
+	<h3 style="padding-top: 5%">$vimiv gallery</h3>
 	<p>
-		here's whats on this site:<br>
-		My linux <a href="linux.php">.files</a><br>
-		Some <a href="projects.php">projects</a> I made/make<br>
-		<a href="gallery.php">gallery</a><br>
+		<img src="./gallery/charachter.png" style="width:50%;display:block;margin-left:auto;margin-right:auto">
 	</p>
 
 	<span class=bottom-banner>
