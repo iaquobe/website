@@ -8,10 +8,8 @@ readfile("./header.html");
 	<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
 	<p>
 		here's whats on this site:<br>
-		<a>gallery</a>
-		<a>.files and stuff</a>
-		<a>human music</a>
-		<a>spotigrep</a>
+		My linux <a href="linux.php">.files</a><br>
+		Some <a href="projects.php">projects</a> I made/make<br>
 	</p>
 
 	<span class=bottom-banner>

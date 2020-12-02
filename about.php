@@ -8,11 +8,9 @@
 	<img src="gif/banner/mario64.gif" alt="ocarina" class="banner">
 
 	<p>
-		This page is hosted on my vps from contabo;<br>
-		It runs an <em>nginx</em> webserver and uses HTML, CSS and PHP;<br>
-
-		I used <a href=https://github.com/jdan/98.css>https://github.com/jdan/98.css</a> for the win98 panel;<br>
-		I also used the fonts <a href=https://www.1001fonts.com/comic-helvetic-font.html>comic-helvetic</a> and <a href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">Press Start 2P</a>;
+		I'm Jakob Lambert-Hartmann.<br>
+		you can contact me on my social media linked below<br>
+		This is hosted on a Contabo VPS I rent<br>
 	</p>
 
 	<span class=bottom-banner>

@@ -8,12 +8,12 @@
 	<img src="gif/banner/ocarina-of-time.gif" alt="ocarina" class="banner">
 
 	<p>
-		my configs are hosted on github
-		some of the programs that are configured:
-		- bspwm 
-		- sxhkd
-		- zsh
-		- vim
+		my configs are hosted on github<br>
+		some of the programs that are configured:<br>
+		- bspwm <br>
+		- sxhkd<br>
+		- zsh<br>
+		- vim<br>
 		<a href=https://github.com/jakoblh/archbox>github.com/jakoblh/archbox</a>
 	</p>
 
