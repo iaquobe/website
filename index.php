@@ -5,7 +5,7 @@ readfile("./header.html");
 
 <div id="content">
 	<h3 style="padding-top: 5%">$cat README.md</h3>
-	<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
+	<img src="gif/banner/botwshrine.gif" alt="retro ride" class="banner">
 	<p>
 		here's whats on this site:<br>
 		My linux <a href="linux.php">.files</a><br>

@@ -6,7 +6,7 @@ readfile("./header.html");
 
 <div id="content">
 	<h3 style="padding-top: 5%">$ls ~/projects</h3>
-	<img src="gif/banner/phantom-hourglass.gif" alt="retro ride" class="banner">
+	<img src="gif/banner/hollow_knight.gif" alt="retro ride" class="banner">
 
 	<h4>$whatis human-music</h4>
 	<p>
