@@ -7,25 +7,13 @@ readfile("./header.html");
 	<h3 style="padding-top: 5%">$cat README.md</h3>
 	<img src="gif/banner/miami-ride.gif" alt="retro ride" class="banner">
 	<p>
-	hey I'm glad you made it to this corner of the web;<br> 
-	This is my website I'll be using it to showcase some projects and write about <em>linux</em>;<br>
-	Additionally I'll maybe post some <strong>bullshit</strong> I find on the Internet;
-	</p>
-	<p>
-	I also have all my social media links at the <u>bottom</u>;<br>
-	Just click the flashing gifs in the footer;
-	</p>
-	<h3>$whoami</h3>
-	<p>
-	I'm a CS student at <u>TUM</u> living in Munich;<br>
-	Before that I lived in Jena and before that I lived in Canada;<br>
-	I spend most of my time doing nothing and the slither thats left I spend in the <em>terminal</em>;<br>
+		here's whats on this site:<br>
+		<a>gallery</a>
+		<a>.files and stuff</a>
+		<a>human music</a>
+		<a>spotigrep</a>
 	</p>
 
-	<h3>$neofetch</h3>
-	<p style="text-align: center">
-	<img src="gif/linux/arch.gif" alt="I use arch btw">
-	</p>
 	<span class=bottom-banner>
 		<img class=bottom-banner-left src=./gif/random/statue4.gif style="width:10%;">
 		<h3 class=bottom-banner-mid>EOF</h3>
