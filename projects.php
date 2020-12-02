@@ -8,7 +8,7 @@ readfile("./header.html");
 	<h3 style="padding-top: 5%">$ls ~/projects</h3>
 	<img src="gif/banner/hollow_knight.gif" alt="retro ride" class="banner">
 
-	<h4>$whatis human-music</h4>
+	<h5>$whatis human-music</h5>
 	<p>
 		A program that creates music<br>
 		It creates MIDI files, converts them to video and uploads them to youtube<br>
@@ -16,7 +16,7 @@ readfile("./header.html");
 		Code is <a href="https://github.com/jakoblh/human-music">here</a>.
 	</p>
 
-	<h4>$whatis spotigrep</h4>
+	<h5>$whatis spotigrep</h5>
 	<p>
 		Program to search for lyrics in spotify playlists<br>
 		Downloads lyrics of song in playlist from genius.<br>
@@ -24,19 +24,19 @@ readfile("./header.html");
 		Code is <a href="https://github.com/jakoblh/spotigrep">here</a>.
 	</p>
 
-	<h4>$whatis ministry-of-truth</h4>
+	<h5>$whatis ministry-of-truth</h5>
 	<p>
 		Program that puts masks on faces in image and video.<br>
 		Code is <a href="https://github.com/jakoblh/ministry-of-truth">here</a>.
 	</p>
 
-	<h4>$whatis twitch-chat</h4>
+	<h5>$whatis twitch-chat</h5>
 	<p>
 		Python script fakes twitch chat in terminal<br>
 		Code is <a href="https://github.com/jakoblh/twitch-chat">here</a>.
 	</p>
 
-	<h4>$whatis news-feed</h4>
+	<h5>$whatis news-feed</h5>
 	<p>
 		Variation of twitch chat that prints recent world news<br>
 		Code is <a href="https://github.com/jakoblh/news-feed">here</a>.

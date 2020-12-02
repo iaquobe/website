@@ -5,7 +5,7 @@
 
 <div id="content">
 	<h3 style="padding-top: 5%">$tree /var/log</h3>
-	<img src="gif/banner/phantom-hourglass2.gif" alt="ocarina" class="banner">
+	<img src="gif/banner/gaping_dragon.gif" alt="ocarina" class="banner">
 
 	<p>
 		I'm Jakob Lambert-Hartmann.<br>
