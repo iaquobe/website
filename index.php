@@ -10,7 +10,7 @@ readfile("./header.html");
 		here's whats on this site:<br>
 		My linux <a href="linux.php">.files</a><br>
 		Some <a href="projects.php">projects</a> I made/make<br>
-		<a href="gallery.php">gallery</a><br>
+		<!--  <a href="gallery.php">gallery</a><br>-->
 	</p>
 
 	<span class=bottom-banner>
