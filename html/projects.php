@@ -12,7 +12,7 @@ readfile("./header.html");
 	<p>
 		A program that creates music<br>
 		It creates MIDI files, converts them to video and uploads them to youtube<br>
-		There is a new song uploaded <a href="https://www.youtube.com/channel/UCDfNLU_M0MK3WOsIsScWirw">here</a> every 1st of them month.<br>
+		There is a new song uploaded <a href="https://www.youtube.com/channel/UCDfNLU_M0MK3WOsIsScWirw">here</a> every 1st of the month.<br>
 		Code is <a href="https://github.com/jakoblh/human-music">here</a>.
 	</p>
 
